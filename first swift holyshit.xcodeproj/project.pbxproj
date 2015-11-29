@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D3199B41C0876E00002010E /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 7D3199B11C0876E00002010E /* .gitignore */; };
+		7D3199B51C0876E00002010E /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 7D3199B21C0876E00002010E /* README.md */; };
+		7D3199B61C0876E00002010E /* StoryboardHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3199B31C0876E00002010E /* StoryboardHelper.swift */; };
+		7D52F79C1C0B6F7F005A183F /* clearButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D52F79B1C0B6F7F005A183F /* clearButton.png */; };
 		7DB2420D1C0862C600CE7989 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB2420C1C0862C600CE7989 /* AppDelegate.swift */; };
 		7DB2420F1C0862C600CE7989 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB2420E1C0862C600CE7989 /* ViewController.swift */; };
 		7DB242121C0862C600CE7989 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DB242101C0862C600CE7989 /* Main.storyboard */; };
@@ -14,6 +18,8 @@
 		7DB242171C0862C600CE7989 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DB242151C0862C600CE7989 /* LaunchScreen.storyboard */; };
 		7DB242221C0862C600CE7989 /* first_swift_holyshitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB242211C0862C600CE7989 /* first_swift_holyshitTests.swift */; };
 		7DB2422D1C0862C700CE7989 /* first_swift_holyshitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB2422C1C0862C700CE7989 /* first_swift_holyshitUITests.swift */; };
+		7DB242411C086CF100CE7989 /* bgvenice.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DB242401C086CF100CE7989 /* bgvenice.png */; };
+		7DB242431C086DF700CE7989 /* startButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DB242421C086DF700CE7989 /* startButton.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7D3199B11C0876E00002010E /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		7D3199B21C0876E00002010E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		7D3199B31C0876E00002010E /* StoryboardHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardHelper.swift; sourceTree = "<group>"; };
+		7D52F79B1C0B6F7F005A183F /* clearButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clearButton.png; sourceTree = "<group>"; };
 		7DB242091C0862C600CE7989 /* first swift holyshit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "first swift holyshit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DB2420C1C0862C600CE7989 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7DB2420E1C0862C600CE7989 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +57,8 @@
 		7DB242281C0862C700CE7989 /* first swift holyshitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "first swift holyshitUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DB2422C1C0862C700CE7989 /* first_swift_holyshitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = first_swift_holyshitUITests.swift; sourceTree = "<group>"; };
 		7DB2422E1C0862C700CE7989 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DB242401C086CF100CE7989 /* bgvenice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bgvenice.png; sourceTree = "<group>"; };
+		7DB242421C086DF700CE7989 /* startButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = startButton.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +86,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7D3199B01C0876E00002010E /* StoryboardHelper-master */ = {
+			isa = PBXGroup;
+			children = (
+				7D3199B11C0876E00002010E /* .gitignore */,
+				7D3199B21C0876E00002010E /* README.md */,
+				7D3199B31C0876E00002010E /* StoryboardHelper.swift */,
+			);
+			path = "StoryboardHelper-master";
+			sourceTree = "<group>";
+		};
 		7DB242001C0862C600CE7989 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +103,10 @@
 				7DB242201C0862C600CE7989 /* first swift holyshitTests */,
 				7DB2422B1C0862C700CE7989 /* first swift holyshitUITests */,
 				7DB2420A1C0862C600CE7989 /* Products */,
+				7D3199B01C0876E00002010E /* StoryboardHelper-master */,
+				7DB242401C086CF100CE7989 /* bgvenice.png */,
+				7DB242421C086DF700CE7989 /* startButton.png */,
+				7D52F79B1C0B6F7F005A183F /* clearButton.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,8 +124,8 @@
 			isa = PBXGroup;
 			children = (
 				7DB2420C1C0862C600CE7989 /* AppDelegate.swift */,
-				7DB2420E1C0862C600CE7989 /* ViewController.swift */,
 				7DB242101C0862C600CE7989 /* Main.storyboard */,
+				7DB2420E1C0862C600CE7989 /* ViewController.swift */,
 				7DB242131C0862C600CE7989 /* Assets.xcassets */,
 				7DB242151C0862C600CE7989 /* LaunchScreen.storyboard */,
 				7DB242181C0862C600CE7989 /* Info.plist */,
@@ -232,8 +258,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DB242431C086DF700CE7989 /* startButton.png in Resources */,
 				7DB242171C0862C600CE7989 /* LaunchScreen.storyboard in Resources */,
+				7D52F79C1C0B6F7F005A183F /* clearButton.png in Resources */,
 				7DB242141C0862C600CE7989 /* Assets.xcassets in Resources */,
+				7DB242411C086CF100CE7989 /* bgvenice.png in Resources */,
+				7D3199B41C0876E00002010E /* .gitignore in Resources */,
 				7DB242121C0862C600CE7989 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,7 +289,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D3199B51C0876E00002010E /* README.md in Sources */,
 				7DB2420F1C0862C600CE7989 /* ViewController.swift in Sources */,
+				7D3199B61C0876E00002010E /* StoryboardHelper.swift in Sources */,
 				7DB2420D1C0862C600CE7989 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -485,6 +517,7 @@
 				7DB242331C0862C700CE7989 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7DB242341C0862C700CE7989 /* Build configuration list for PBXNativeTarget "first swift holyshitTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +526,7 @@
 				7DB242361C0862C700CE7989 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7DB242371C0862C700CE7989 /* Build configuration list for PBXNativeTarget "first swift holyshitUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +535,7 @@
 				7DB242391C0862C700CE7989 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
